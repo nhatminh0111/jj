@@ -1,0 +1,7 @@
+D:\VS Studio\OOp1\OOp1\bin\Debug\OOp1.exe.config
+D:\VS Studio\OOp1\OOp1\bin\Debug\OOp1.exe
+D:\VS Studio\OOp1\OOp1\bin\Debug\OOp1.pdb
+D:\VS Studio\OOp1\OOp1\obj\Debug\OOp1.csproj.AssemblyReference.cache
+D:\VS Studio\OOp1\OOp1\obj\Debug\OOp1.csproj.CoreCompileInputs.cache
+D:\VS Studio\OOp1\OOp1\obj\Debug\OOp1.exe
+D:\VS Studio\OOp1\OOp1\obj\Debug\OOp1.pdb
