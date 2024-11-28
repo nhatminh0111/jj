@@ -1,0 +1,10 @@
+D:\VS Studio\btbuoi3\btbuoi3\bin\Debug\btbuoi3.exe.config
+D:\VS Studio\btbuoi3\btbuoi3\bin\Debug\btbuoi3.exe
+D:\VS Studio\btbuoi3\btbuoi3\bin\Debug\btbuoi3.pdb
+D:\VS Studio\btbuoi3\btbuoi3\obj\Debug\btbuoi3.csproj.AssemblyReference.cache
+D:\VS Studio\btbuoi3\btbuoi3\obj\Debug\btbuoi3.Form1.resources
+D:\VS Studio\btbuoi3\btbuoi3\obj\Debug\btbuoi3.Properties.Resources.resources
+D:\VS Studio\btbuoi3\btbuoi3\obj\Debug\btbuoi3.csproj.GenerateResource.cache
+D:\VS Studio\btbuoi3\btbuoi3\obj\Debug\btbuoi3.csproj.CoreCompileInputs.cache
+D:\VS Studio\btbuoi3\btbuoi3\obj\Debug\btbuoi3.exe
+D:\VS Studio\btbuoi3\btbuoi3\obj\Debug\btbuoi3.pdb
