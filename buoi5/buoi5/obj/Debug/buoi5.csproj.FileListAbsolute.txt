@@ -1,0 +1,11 @@
+D:\VS Studio\buoi5\buoi5\bin\Debug\buoi5.exe.config
+D:\VS Studio\buoi5\buoi5\bin\Debug\buoi5.exe
+D:\VS Studio\buoi5\buoi5\bin\Debug\buoi5.pdb
+D:\VS Studio\buoi5\buoi5\obj\Debug\buoi5.csproj.AssemblyReference.cache
+D:\VS Studio\buoi5\buoi5\obj\Debug\buoi5.Form1.resources
+D:\VS Studio\buoi5\buoi5\obj\Debug\buoi5.Properties.Resources.resources
+D:\VS Studio\buoi5\buoi5\obj\Debug\buoi5.csproj.GenerateResource.cache
+D:\VS Studio\buoi5\buoi5\obj\Debug\buoi5.csproj.CoreCompileInputs.cache
+D:\VS Studio\buoi5\buoi5\obj\Debug\buoi5.exe
+D:\VS Studio\buoi5\buoi5\obj\Debug\buoi5.pdb
+D:\VS Studio\buoi5\buoi5\obj\Debug\buoi5.Form2.resources
