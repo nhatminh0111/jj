@@ -1,0 +1,15 @@
+D:\VS STO\buoi6\buoi6\bin\Debug\buoi6.exe.config
+D:\VS STO\buoi6\buoi6\bin\Debug\buoi6.exe
+D:\VS STO\buoi6\buoi6\bin\Debug\buoi6.pdb
+D:\VS STO\buoi6\buoi6\bin\Debug\EntityFramework.dll
+D:\VS STO\buoi6\buoi6\bin\Debug\EntityFramework.SqlServer.dll
+D:\VS STO\buoi6\buoi6\bin\Debug\EntityFramework.xml
+D:\VS STO\buoi6\buoi6\bin\Debug\EntityFramework.SqlServer.xml
+D:\VS STO\buoi6\buoi6\obj\Debug\buoi6.csproj.AssemblyReference.cache
+D:\VS STO\buoi6\buoi6\obj\Debug\buoi6.Form1.resources
+D:\VS STO\buoi6\buoi6\obj\Debug\buoi6.Properties.Resources.resources
+D:\VS STO\buoi6\buoi6\obj\Debug\buoi6.csproj.GenerateResource.cache
+D:\VS STO\buoi6\buoi6\obj\Debug\buoi6.csproj.CoreCompileInputs.cache
+D:\VS STO\buoi6\buoi6\obj\Debug\buoi6.csproj.Up2Date
+D:\VS STO\buoi6\buoi6\obj\Debug\buoi6.exe
+D:\VS STO\buoi6\buoi6\obj\Debug\buoi6.pdb
