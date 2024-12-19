@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QLSanphamModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="LoaiSP">
+    <Key>
+      <PropertyRef Name="MaLoai" />
+    </Key>
+    <Property Name="MaLoai" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="TenLoai" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Sanphams" Relationship="Self.FK__Sanpham__MaLoai__4BAC3F29" FromRole="LoaiSP" ToRole="Sanpham" />
+  </EntityType>
+  <EntityType Name="Sanpham">
+    <Key>
+      <PropertyRef Name="MaSP" />
+    </Key>
+    <Property Name="MaSP" Type="String" MaxLength="6" FixedLength="true" Unicode="false" Nullable="false" />
+    <Property Name="TenSP" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Ngaynhap" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="MaLoai" Type="String" MaxLength="2" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="LoaiSP" Relationship="Self.FK__Sanpham__MaLoai__4BAC3F29" FromRole="Sanpham" ToRole="LoaiSP" />
+  </EntityType>
+  <Association Name="FK__Sanpham__MaLoai__4BAC3F29">
+    <End Role="LoaiSP" Type="Self.LoaiSP" Multiplicity="1" />
+    <End Role="Sanpham" Type="Self.Sanpham" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LoaiSP">
+        <PropertyRef Name="MaLoai" />
+      </Principal>
+      <Dependent Role="Sanpham">
+        <PropertyRef Name="MaLoai" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QLSanphamEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="LoaiSPs" EntityType="Self.LoaiSP" />
+    <EntitySet Name="Sanphams" EntityType="Self.Sanpham" />
+    <AssociationSet Name="FK__Sanpham__MaLoai__4BAC3F29" Association="Self.FK__Sanpham__MaLoai__4BAC3F29">
+      <End Role="LoaiSP" EntitySet="LoaiSPs" />
+      <End Role="Sanpham" EntitySet="Sanphams" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
